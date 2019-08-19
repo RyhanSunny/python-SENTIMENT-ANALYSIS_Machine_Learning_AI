@@ -11,11 +11,11 @@ from textblob import TextBlob
 # Using Twitter API created a twitter app and generated access tokens
 from tweepy.auth import AuthHandler
 
-consumer_key = "xymCHFLBMXmvStjskVbQV9ubP"
-consumer_secret = "5ULTY4FyECVc7w4xMXRlH2KUej9erJw9e2rYxmzklRJ0rRb6Ci"
+consumer_key = "PASTE HERE"
+consumer_secret = "PASTE HERE"
 
-access_token = "2328844606-L8LSWoVRuKa4LATCVcL6YgeWso1rr2gB6duDmZx"
-access_token_sectet = "b061CB0XDN3vEl7psSJAmrSZuMWLifwDbi8JLODWWnlNq "
+access_token = "PASTE HERE"
+access_token_sectet = "PASTE HERE"
 
 # logging in (O auth not zero)
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
@@ -38,4 +38,5 @@ for tweet in public_tweets:
     print(analysis.sentiment)
     # POLARITY measures how positive or negative a tweet is
     # SUBJECTIVITY measures how much of an OPINION it is VS how much of it is FACTUAL
+
 
